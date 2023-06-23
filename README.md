@@ -1,6 +1,6 @@
 #   ADSS_Project - Analysis & Design of Software Systems course project
 
-* The files for laucnhing the system are located in the [release](release) folder
+* The files for launching the system are located in the [release](release) folder
 
 * For system usage instructions see [CLI instructions](CLI_instructions.pdf), [GUI instructions](GUI_instructions.pdf)<br/>
 
