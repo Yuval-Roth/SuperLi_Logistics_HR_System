@@ -4,6 +4,7 @@ import presentationLayer.DataGenerator;
 import presentationLayer.gui.plAbstracts.MainWindow;
 import presentationLayer.gui.plAbstracts.PanelManager;
 import presentationLayer.gui.plAbstracts.interfaces.Panel;
+import presentationLayer.gui.plUtils.Colors;
 import presentationLayer.gui.plUtils.Link;
 import presentationLayer.gui.plUtils.QuickAccess;
 import presentationLayer.gui.transportModule.control.*;
@@ -49,6 +50,7 @@ public class TransportView extends MainWindow {
         this.driversControl = driversControl;
         this.trucksControl = trucksControl;
         this.sitesControl = sitesControl;
+        Colors.colorPalette = Colors.ColorPalette.blue;
         currentPanel = new initialPanel();
         panelManager = new PanelManager(currentPanel);
         super.addUIElement(panelManager);
