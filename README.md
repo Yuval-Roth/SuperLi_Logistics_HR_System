@@ -1,31 +1,8 @@
 #   ADSS_Project - Analysis & Design of Software Systems course project
 
-### Ids:
-
-Yuval - 319071239
-
-Hila  - 206519118
-
-Mor - 315278648
-
-Gal   - 211564265
-
-Max   - 208850529
-
 * For system usage instructions see [CLI instructions](CLI_instructions.pdf), [GUI instructions](GUI_instructions.pdf)<br/>
-* For system changes see [system changes](System_changes.pdf)
 
 ## External dependencies:
 
-1) **Bing Maps REST services:** used to calculate travel times between sites in order to approximate arrival times for transport destinations (not a library, but an external dependency)
-
-2) **Gson:** used for serializing jsons
-
-3) **Junit:** used for unit testing
-
-4) **Mockito:** used for unit testing
-
-5) **javafx.base:** used for predefined collections such as Pair<T,K>
-
-6) **sqlite.jdbc:** database engine
+1) **Bing Maps REST services:** used to calculate travel times between sites in order to approximate arrival times for transport destinations
 
